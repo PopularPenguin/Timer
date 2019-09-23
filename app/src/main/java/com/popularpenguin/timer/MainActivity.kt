@@ -22,8 +22,6 @@ class MainActivity : AppCompatActivity() {
         timerTextView.setOnClickListener {
             if (!::job.isInitialized) {
                 initJob()
-            } else if (job.isActive) {
-                resetJob()
             } else {
                 resetJob()
             }
