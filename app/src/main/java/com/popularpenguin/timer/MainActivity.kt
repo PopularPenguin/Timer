@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         timerTextView.text = "Click"
         timerTextView.setOnClickListener {
             if (!::job.isInitialized) {
