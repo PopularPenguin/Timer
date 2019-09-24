@@ -6,17 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/timerTextView"
+    <com.popularpenguin.timer.TimerView
+        android:id="@+id/timerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textSize="60sp"
+        android:textSize="50sp"
         android:textStyle="bold"
         tools:text="1:23"
+        app:start_time="10"
+        app:normal_color="#395E44"
+        app:medium_warning="6"
+        app:medium_warning_color="#FFF000"
+        app:low_warning="2"
+        app:low_warning_color="#BA1111"
+        app:start_text="Click Here"
+        app:start_text_color="#303939"
+        app:end_text="Done!"
+        app:end_text_color="#303939"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

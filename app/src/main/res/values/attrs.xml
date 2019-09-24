@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TimerView">
+        <attr name="start_time" format="integer"/>
+
+        <attr name="medium_warning" format="integer"/>
+        <attr name="low_warning" format="integer"/>
+        <attr name="medium_warning_color" format="color"/>
+        <attr name="low_warning_color" format="color"/>
+        <attr name="normal_color" format="color"/>
+
+        <attr name="start_text" format="string"/>
+        <attr name="start_text_color" format="color"/>
+        <attr name="end_text" format="string"/>
+        <attr name="end_text_color" format="color"/>
+
+    </declare-styleable>
+</resources>

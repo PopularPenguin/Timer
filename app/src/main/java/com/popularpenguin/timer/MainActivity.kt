@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        TimerTextView(timerTextView, 60, "Click", "Done")
+        timerView.setOnClickListener {
+            timerView.toggle()
+        }
     }
 }
